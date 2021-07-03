@@ -1,5 +1,6 @@
 import React from 'react';
 import coverImage from "../../assets/cover/cover.jpg";
+import Footer from '../Footer';
 
 function About() {
   return (
