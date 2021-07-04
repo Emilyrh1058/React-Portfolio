@@ -1,7 +1,7 @@
 import React from 'react';
-import gitHub from '../../assets/images/github-icon.png'
-import linkedIn from '../../assets/images/linkedin-icon.png'
-import stack from '../../assets/images/stack-icon.png'
+import gitHub from '../../assets/images/icons/github-icon.png'
+import linkedIn from '../../assets/images/icons/linkedin-icon.png'
+import stack from '../../assets/images/icons/stack-icon.png'
 
 const Footer = () => {
   return (
