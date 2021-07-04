@@ -1,7 +1,6 @@
-  
 import React, {useState, useEffect} from 'react';
-import NavBar from '../NavBar';
-import About from '../AboutMe';
+import NavBar from '../Nav';
+import About from '../About';
 import Projects from '../Projects';
 import Contact from '../Contact';
 import Resume from '../Resume';

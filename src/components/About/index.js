@@ -1,12 +1,25 @@
 import React from 'react';
-import coverImage from "../../assets/cover/cover.jpg";
+import profilePic from "../../assets/images/Emily-photo.png";
 import Footer from '../Footer';
 
 function About() {
   return (
     <section className="my-5">
-      <h1 id="about">Who am I?</h1>
-      <img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" />
+      <div className='container d-flex flex-column text-center'>
+        <div className='p-2'>
+          <h1 id="about">Hi, I'm Emily!</h1>
+          <img src={profilePic} className="my-2" style={{ width: "100%" }} alt="Emily" />
+        </div>
+        <div className='p-2'>
+          <p className='aboutMe'>
+            I've recently gained a Full Stack Web Developer certification through the University of Texas at Austin. Previously, I stayed at home during the Covid-19 pandemic to care for my two small children. Before the pandemic, I was in the oilfield serving as range of things from HES Technician to Office Mangager. In my personal life I enjoy anything to do with the ocean (scuba diving, free diving, deep sea fishing, beach combing) as well as travel. I'm raising two amazing children who are the light of my life.
+            
+          </p>
+        </div>
+      </div>
+      <div>
+        <Footer/>
+      </div>
     </section>
   );
 }
