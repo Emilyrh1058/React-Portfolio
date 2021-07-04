@@ -8,7 +8,7 @@ function About() {
       <div className='container d-flex flex-column text-center'>
         <div className='p-2'>
           <h1 id="about">Hi, I'm Emily!</h1>
-          <img src={profilePic} className="my-2" style={{ width: "100%" }} alt="Emily" />
+          <img src={profilePic} className="my-2" style={{ width: "50%" }} alt="Emily" />
         </div>
         <div className='p-2'>
           <p className='aboutMe'>
