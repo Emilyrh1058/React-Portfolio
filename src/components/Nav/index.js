@@ -1,14 +1,16 @@
 import React from 'react';
 import { capitalizeFirstLetter } from '../../utils/helpers';
 
+
 function Nav(props) {
   const {
-    categories = [],
-    setCurrentCategory,
+    projects = [],
+    setCurrentproject,
     contactSelected,
-    currentCategory,
+    currentproject,
     setContactSelected,
   } = props;
+
 
   return (
     <header className="flex-row px-1">
@@ -37,20 +39,20 @@ function Nav(props) {
               Resume
             </a>
           </li>
-          {categories.map((category) => (
+          {projects.map((project) => (
             <li
               className={`mx-1 ${
-                currentCategory.name === category.name && !contactSelected && 'navActive'
+                currentproject.name === project.name && !contactSelected && 'navActive'
                 }`}
-              key={category.name}
+              key={project.name}
             >
               <span
                 onClick={() => {
-                  setCurrentCategory(category);
+                  setCurrentproject(project);
                   setContactSelected(false);
                 }}
               >
-                {capitalizeFirstLetter(category.name)}
+                {capitalizeFirstLetter(project.name)}
               </span>
             </li>
           ))}
