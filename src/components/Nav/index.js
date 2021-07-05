@@ -3,6 +3,7 @@ import about from "../../assets/images/nav-images/about.png";
 import contact from "../../assets/images/nav-images/contact.png";
 import projects from "../../assets/images/nav-images/projects.png";
 import resume from "../../assets/images/nav-images/resume.png";
+import '../../index.css';
 
 function Nav(props) {
   const navLinks = [
@@ -28,17 +29,6 @@ function Nav(props) {
     <header>
       <nav className="navbar navbar-nav navbar-expand-md navbar-expand-lg navbar-light text-center">
         <div className="container-fluid justify-content-center text-center">
-          {/* <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarToggler"
-            aria-controls="navbarToggler"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button> */}
           <div
             className="collapse navbar-collapse"
             data-parent="#selector"
