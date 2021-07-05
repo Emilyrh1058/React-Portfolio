@@ -54,7 +54,7 @@ const Projects = () => {
           <div className="row">
             {projects.map((project) => (
               <div
-                className="card-group col col-sm-auto col-md-auto col-lg-auto mt-3 mb-3 mx-auto align-self-center"
+                className="card-group col col-lg-auto col-md-auto col-lg-auto mt-3 mb-3 mx-auto align-self-center"
                 key={project.name}
               >
                 <div
@@ -74,7 +74,6 @@ const Projects = () => {
                   </a>
                   <div className="card-body">
                     <h2 className="card-title mb-4">{project.name}</h2>
-                    <p className="card-text fw-light">{project.description}</p>
                     <ul className="list-group list-group-flush mb-4"></ul>
                     <a
                       href={project.deploymentLink}
