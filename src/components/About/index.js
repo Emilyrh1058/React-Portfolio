@@ -10,8 +10,8 @@ function About() {
           <h1 id="about">Hi, I'm Emily!</h1>
           <img
             src={profilePic}
-            className="my-2"
-            style={{ width: "100%" }}
+            className="profile-pic"
+            style={{ width: "50%" }}
             alt="Emily"
           />
         </div>
