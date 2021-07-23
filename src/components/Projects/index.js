@@ -6,9 +6,16 @@ import PizzaHunt from "../../assets/images/project-images/pizza-hunt.JPG"
 import Horiseon from "../../assets/images/project-images/horiseon.JPG"
 import BudgetTracker from "../../assets/images/project-images/budget-tracker.JPG"
 import ZooKeepr from "../../assets/images/project-images/zookeepr.JPG"
+import Tabs from "../../assets/images/project-images/tabs.JPG"
 
 const Projects = () => {
   const projects = [
+    {
+      name: "Tabs",
+      image: Tabs,
+      githubLink: "https://github.com/Emilyrh1058/Tabs",
+      deploymentLink: "",
+    },
     {
       name: "Angelfish",
       image: Angelfish,
