@@ -14,7 +14,7 @@ const Projects = () => {
       name: "Tabs",
       image: Tabs,
       githubLink: "https://github.com/Emilyrh1058/Tabs",
-      deploymentLink: "",
+      deploymentLink: "https://emily-tech-blog.herokuapp.com/",
     },
     {
       name: "Angelfish",
