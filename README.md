@@ -9,7 +9,7 @@ This portfolio displays my always-continuing skillset I've gained thusfar from t
 * [Questions](#questions)
 
 ## Usage
-To use this application simply visit the deployed site and navigate through the site using the links provided at the top of the page. You can access the deployed site [here](https://emilyrh1058.github.io/react-portfolio/).
+To use this application simply visit the deployed site and navigate through the site using the links provided at the top of the page. You can access the deployed site [here]().
 
 ## Contributions
 This project was created by Emily Salinas.
